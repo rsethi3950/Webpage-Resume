@@ -18,12 +18,13 @@
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  font-size: 63px;
 }
 #jumbo2 {
   padding-top: 0px;
 }
-#jumbo2 .col-md-4 {
-  margin-top: 35px;
+#jumbo2 .col-lg-4 {
+  margin-top: 40px;
 }
 #swift {
   color: #ffac45;
@@ -61,7 +62,25 @@
 .jumbotron p {
   margin-top: 10px;
   text-align: left;
+  font-size: 21px;
 }
+
+.carousel-indicators li{
+  background-color:pink;
+}
+
+.carousel-indicators .active{
+  background-color:blue;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
 @media (max-width: 767px) {
   .jumbotron {
     margin-top: 25px;
@@ -74,3 +93,4 @@
     visibility: hidden;
   }
 }
+

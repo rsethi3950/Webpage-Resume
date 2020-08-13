@@ -11,81 +11,8 @@ body {
   text-align: center;
 }
 
-/*
----Bootstrap navbar CSS---
---navbar
-.navbar-default {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
-}
---title
-.navbar-default .navbar-brand {
-    color: #777;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #5E5E5E;
-}
---link
-.navbar-default .navbar-nav > li > a {
-    color: #777;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #333;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #E7E7E7;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-    color: #555;
-    background-color: #D5D5D5;
-}
---caret
-.navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: #777;
-    border-bottom-color: #777;
-}
-.navbar-default .navbar-nav > .dropdown > a:hover .caret,
-.navbar-default .navbar-nav > .dropdown > a:focus .caret {
-    border-top-color: #333;
-    border-bottom-color: #333;
-}
-.navbar-default .navbar-nav > .open > a .caret,
-.navbar-default .navbar-nav > .open > a:hover .caret,
-.navbar-default .navbar-nav > .open > a:focus .caret {
-    border-top-color: #555;
-    border-bottom-color: #555;
-}
---mobile version
-.navbar-default .navbar-toggle {
-    border-color: #DDD;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #DDD;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #CCC;
-}
-@media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #777;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
-    }
-}
-*/
 
-
-/*--Navbar--*/
+/* --Navbar-- */
 
 .navbar-default {
   background-color: #42a5f5;
@@ -112,9 +39,6 @@ body {
   font-weight: bold;
   color: #fff;
 }
-.navbar-default .navbar-brand {
-  border-bottom: 2px solid #42a5f5;
-}
 .navbar-default .navbar-brand:hover ,.navbar-default .navbar-brand:focus {
   border-bottom: 2px solid #fff;
 }
@@ -126,11 +50,14 @@ body {
   color: #fff;
   border-bottom: 2px solid #fff;
 }
+
+
 @media (max-width: 767px) {
   .navbar li {
     padding-left: 15px;
     text-align: left;
   }
+
 }
 
 /*--jumbotron a--*/
@@ -151,19 +78,40 @@ body {
 
 /*--Footer--*/
 
-footer hr {
-  width: 100%;
-  height: 1px;
-  border: 0 none;
-  background: #ddd;
+.btn-facebook{
+  background: #191970;
+  color: white;
+  border-radius: 50%;
 }
-footer {
-  background-color: #eee;
-  padding-bottom: 100px;
+.btn-twitter{
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
 }
-.fa-stack.fa-2x {
-  color: #5a5a5a;
+.btn-linkedin{
+  background: #4169E1;
+  color: white;
+  border-radius: 50%;
 }
-.fa-stack:hover .fa-circle {
-  color: #42a5f5;
+.btn-dribbble{
+  background:#FF1493;
+  color: white;
+  border-radius: 50%;
+}
+.btn-mailto{
+  background: grey;
+  color: white;
+  border-radius: 50%;
+}
+.btn-github{
+  background: #3366FF;
+  color: white;
+  border-radius: 50%;
+}
+.fa:hover{
+  color: white;
+}
+.icons:hover{
+  color: white;
+  transform: scale(1.25);
 }
