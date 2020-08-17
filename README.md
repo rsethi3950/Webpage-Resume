@@ -1,3 +1,3 @@
 # Webpage-Resume
-created a webpage of my resume.
-visit at localhost:3000/resume
+Created a webpage of my resume.
+visit https://riya-sethi.herokuapp.com/Webpage-Resume-master/index.html
