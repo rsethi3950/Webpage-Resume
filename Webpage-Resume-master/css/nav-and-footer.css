@@ -105,6 +105,16 @@ body {
   color: white;
   border-radius: 50%;
 }
+.btn-instagram{
+  background:#FF1493;
+  color: white;
+  border-radius: 50%;
+}
+.btn-hackerrank{
+  background:#00A300;
+  color: white;
+  border-radius: 50%;
+}
 .fa:hover{
   color: white;
 }

@@ -59,6 +59,12 @@
   border: 10px solid #eee;
   border-radius: 130px;
 }
+.media img{
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+  border: none;
+}
 .jumbotron p {
   margin-top: 10px;
   text-align: left;
