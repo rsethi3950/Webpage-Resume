@@ -62,7 +62,7 @@
 .media img{
   width: 70px;
   height: 70px;
-  vertical-align: middle;
+  vertical-align: bottom;
   border: none;
 }
 .jumbotron p {
